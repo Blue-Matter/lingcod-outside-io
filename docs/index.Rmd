@@ -118,7 +118,7 @@ kable(dat,"simple",col.names=rep("",2))
 
 ### Straw Dog Assessment (22 Feb 2024)
 
-[Stock Synthesis HTML assessment reporting](Assessments/Straw_Dog/_SS_output.html)
+[Stock Synthesis HTML assessment reporting](Assessments/Straw_dog/_SS_output.html)
 
 ***
 
