@@ -90,7 +90,7 @@ Develop a defensible and empirically based model of population and fishery dynam
 ### Project details
 
 ```{r ProjDets, eval=T}
-dat<-data.frame(c("Term","Funding body","Funding stream","Contract No.","Project Partners","Blue Matter Team","CDFW Principal Investigators"),
+dat<-data.frame(c("Term","Funding body","Funding stream","Contract No.","Project Partners","Blue Matter Team","DFO Principal Investigator"),
                 
                  c("Jan 1 2024 - March 31 2024",
                    "Fisheries and Oceans Canada",

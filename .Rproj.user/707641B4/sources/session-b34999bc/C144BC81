@@ -3,7 +3,7 @@
     "path": "C:/GitHub/lingcod-outside-io/docs/index.Rmd",
     "project_path": "docs/index.Rmd",
     "type": "r_markdown",
-    "hash": "1747250068",
+    "hash": "4082945544",
     "contents": "",
     "dirty": false,
     "created": 1708628752713.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "9,0",
-        "scrollLine": "0"
+        "cursorPosition": "92,137",
+        "scrollLine": "80"
     },
     "folds": "",
-    "lastKnownWriteTime": 1708635847,
+    "lastKnownWriteTime": 1708636383,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1708635847398,
+    "last_content_update": 1708636383955,
     "read_only": false,
     "read_only_alternatives": []
 }
