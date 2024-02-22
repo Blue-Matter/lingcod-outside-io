@@ -1,6 +1,6 @@
 
 ---
-title: "Documenation in Support of the 2024 Outside Lingcod Stock Assessment: Data, Models & Diagnostics"
+title: "Documentation in Support of the 2024 Outside Lingcod Stock Assessment: Data, Models & Diagnostics"
 author: "Tom Carruthers <tom@bluematterscience.com>"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: html_document
