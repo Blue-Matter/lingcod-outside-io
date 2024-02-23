@@ -12,13 +12,13 @@ copyall = function(thisdir, todir){
 }  
 
   
-copyall(paste0(frompathG,"/References/"), paste0(topath,"/References/"))
-copyall(thisdir=paste0(frompath,"/Figures/Data/"),todir= paste0(topath,"/Figures/"))
-copyall(thisdir=paste0(frompath,"/Figures/Demo/"),todir= paste0(topath,"/Figures/"))
-copyall(thisdir=paste0(frompath,"/Code/"),todir= paste0(topath,"/Code/"))
+#copyall(paste0(frompathG,"/References/"), paste0(topath,"/References/"))
+#copyall(thisdir=paste0(frompath,"/Figures/Data/"),todir= paste0(topath,"/Figures/"))
+#copyall(thisdir=paste0(frompath,"/Figures/Demo/"),todir= paste0(topath,"/Figures/"))
+#copyall(thisdir=paste0(frompath,"/Code/"),todir= paste0(topath,"/Code/"))
 
-
-file.copy(paste0(frompathG,"/Status Assumptions To Do.xlsx"),paste0(topath,"/Project_Info/Status Assumptions To Do.xlsx"),overwrite=T)
+copyall(thisdir = paste0(frompath,"/assessment/runs/straw_dog/plots/"),todir = paste0(topath,"/Assessments/Straw_dog/"))
+file.copy(paste0(frompathG,"/Presentations/Tech Meeting 1 Feb 2024 v3.pdf"),paste0(topath,"/Presentations/Tech Meeting 1 Feb 2024 v3.pdf"),overwrite=T)
 
 #file.copy(paste0(frompath,"/OMs/DemoOM2.rda"),paste0(topath,"/OMs/DemoOM2.rda"),overwrite=T)
 
