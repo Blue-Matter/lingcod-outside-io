@@ -18,9 +18,12 @@ copyall = function(thisdir, todir){
 #copyall(thisdir=paste0(frompath,"/Code/"),todir= paste0(topath,"/Code/"))
 
 file.copy(paste0(frompath,"/assessment/runs/straw_dog/plots/_SS_output.html"), paste0(topath,"/Assessments/Straw_dog/index.html"),overwrite=T) # need an index for the page to work as intended
+file.copy(paste0(frompath,"/assessment/runs/base_case/plots/_SS_output.html"), paste0(topath,"/Assessments/Base_case/index.html"),overwrite=T) # need an index for the page to work as intended
+
 
 copyall(thisdir = paste0(frompath,"/assessment/runs/straw_dog/plots/"),todir = paste0(topath,"/Assessments/Straw_dog/"))
 file.copy(paste0(frompathG,"/Presentations/Tech Meeting 1 Feb 2024 v3.pdf"),paste0(topath,"/Presentations/Tech Meeting 1 Feb 2024 v3.pdf"),overwrite=T)
+file.copy(paste0(frompathG,"/Presentations/March 2024 update.pdf"),paste0(topath,"/Presentations/March 2024 update.pdf"),overwrite=T)
 
 #file.copy(paste0(frompath,"/OMs/DemoOM2.rda"),paste0(topath,"/OMs/DemoOM2.rda"),overwrite=T)
 

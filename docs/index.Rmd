@@ -87,6 +87,12 @@ Develop a defensible and empirically based model of population and fishery dynam
 
 ***
 
+### Project Status
+
+Following feedback from the Technical Working Group, a straw dog assessment model was updated to include the Triennial survey index. This updated model is first iteration of the Base Case assessment model, which is the basis for future senstivity analyses and diagnostic runs. 
+
+***
+
 ### Project details
 
 ```{r ProjDets, eval=T}
@@ -113,10 +119,18 @@ kable(dat,"simple",col.names=rep("",2))
 
 [Tech Team 1 - 22 Feb 2024 - Straw dog data and model](Presentations/Tech Meeting 1 Feb 2024 v3.pdf)
 
+[March Update 2024 - first Base Case model](Presentations/March 2024 update.pdf)
+
 
 ***
 
 ### Straw Dog Assessment (22 Feb 2024)
+
+[Stock Synthesis HTML assessment reporting](Assessments/Straw_dog/)
+
+***
+
+### Base Case Assessment (21 March 2024)
 
 [Stock Synthesis HTML assessment reporting](Assessments/Straw_dog/)
 
@@ -168,6 +182,10 @@ Res. Doc. 2011/124. viii + 177p.](Reports/King_etal_2011 ling SA outside RD.pdf)
 ### Acknowledgements
 
 Special thanks to Dana Haggarty, Luke Rodgers, Leah Walker and Quang Huynh for their help in navigating data and SS input files and configurations.   
+
+Many thanks to the Lingcod Technical Team for feedback on model behavior, estimates and diagnostics:
+
+Kendra Holt, Sean Anderson, Deirdre Finn, Lindsay Richardson-Deranger, Emma Fisher & Robert Burkos 
 
 This work was funded by Canada Fisheries and Oceans. 
 
